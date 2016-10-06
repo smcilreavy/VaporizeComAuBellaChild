@@ -1,0 +1,685 @@
+/*
+Theme Name: Bella Child
+Description: Child theme for the Bella Theme
+Author: jThemes Studio
+Template: bella-installable
+*/
+
+
+section.page-section {
+    background-color: #ffffff;
+}
+
+
+
+
+/* added by ER Dated 28.06.15 */
+
+.term-description p {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.page-header h1 {
+    margin-bottom: 10px !important;
+}
+
+
+.er_footer_left_block{
+    float:left;
+    width:80%;
+}
+
+.er_footer_right_block{
+    float:right;
+    width:20%;
+}
+
+.shop-info-banners .col-md-4:nth-child(1) .block{
+	background: transparent url("/wp-content/uploads/timeIcon1.png") no-repeat scroll 0% 0% / 53px 62px;
+    background-position: right 26px center;
+}
+
+.shop-info-banners .col-md-4:nth-child(1) .block:hover{
+	background: #3C3C3C url("/wp-content/uploads/hover-timeIcon.png") no-repeat scroll 0% 0% / 53px 62px !important;
+    background-position: right 26px center !important;
+}
+
+
+.shop-info-banners .col-md-4:nth-child(2) .block{
+	background: transparent url("/wp-content/uploads/Herbs1.png") no-repeat scroll 0% 0% / 53px 62px;
+    background-position: right 26px center;
+}
+
+.shop-info-banners .col-md-4:nth-child(2) .block:hover{
+	background: #3C3C3C url("/wp-content/uploads/hover-Herbs.png") no-repeat scroll 0% 0% / 53px 62px !important;
+    background-position: right 26px center !important;
+}
+
+.shop-info-banners .col-md-4:nth-child(3) .block{
+	background: transparent url("/wp-content/uploads/shipLogo2.png") no-repeat scroll 0% 0% / 76px 62px;
+    background-position: right 12px center;
+}
+
+.shop-info-banners .col-md-4:nth-child(3) .block:hover{
+	background: #3C3C3C url("/wp-content/uploads/shipLogoW.png") no-repeat scroll 0% 0% / 76px 62px !important;
+    background-position: right 12px center !important;
+}
+	
+
+
+
+
+
+section.page-section.with-sidebar {
+    background-color: #ffffff;
+}
+
+
+.byline.byline-cat {
+display: none;
+}
+
+
+#to-top{
+	display:none;
+}
+
+#mc4wp_email{
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px !important;
+    font-size: 14px;
+    line-height: 1.42857 !important;
+    color: rgb(115, 116, 117) !important;
+    background-color: #FFF !important;
+    background-image: none;
+    border: 3px solid #e9e9e9 !important;
+    border-radius: none !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+#mc4wp_email:hover{
+	border: 3px solid #000000 !important;
+}
+
+#er_newsletter{
+    cursor: pointer;
+    display: inline-block !important;
+	box-shadow: none !important;
+	border-radius: 0px !important;
+	padding: 12px 20px !important;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	line-height: 1 !important;
+	text-transform: uppercase !important;
+	transition: all 0.2s ease-in-out 0s !important;
+	border-width: 3px !important;
+	text-align: center !important;
+	white-space: nowrap !important;
+	-moz-user-select: none !important;
+	background-image: none !important;
+	background-color: transparent;
+	border: 3px solid #e9e9e9 !important;
+	color:#000 !important;
+}
+
+#er_newsletter:hover {
+    background-color: #232323 !important;
+    border-color: #232323 !important;
+    color: #FFF !important;
+}
+
+
+#er_home #er_custom_banner_page{
+padding-right: 0px !important;
+padding-left: 0px !important;
+}
+
+#er_home .page-section {
+    padding-top: 0px !important;
+	}
+
+@media only screen 
+and (min-width : 1200px){
+    
+.logo {
+    max-width: 433px !important;
+}
+
+
+.shop-info-banners .block{
+    height: 139px;
+}
+
+/*
+#er_home .col-md-12{
+padding-right: 0px !important;
+padding-left: 0px !important;
+}
+*/
+
+}
+
+
+/* Tables */
+.tableStyle {
+	border-top: 5px solid !important;
+	border-left: #dee0e0 1px solid !important;
+	margin: 0 0 30px 0;
+	font-size: 14px;
+	border-radius: 0 !important;
+}
+
+.tableStyle td, .tableStyle table th {
+	border-right: #dee0e0 1px solid !important;
+	border-bottom: #dee0e0 1px solid !important;
+	border-top: none !important;
+	text-align: left;
+	vertical-align: top;
+}
+
+.tableStyle th {
+	padding: 15px 10px 15px 10px !important;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.tableStyle td {
+	padding: 10px !important;
+}
+
+.tableStyle tr:nth-child(2n) {
+    background: #f5f5f5;
+}
+
+.page-id-1666 .post-body img, .tableStyle tr td a img{
+    display: table !important;
+    margin: 0px auto !important;
+    max-width: 100% !important;
+}
+
+.tableStyle tr td a img#er_grenco_science{
+	position: relative;
+	top: 15px;
+/* 	height: 65px;
+	width: 215px; */
+}
+
+.tableStyle tr td a img.er-cloudv{
+	/* margin-top: -10px !important; */
+}
+
+.tableStyle tr td a img.er-white-rhino{
+/*     height: 97px;
+    padding-bottom: 20px !important;
+    margin-top: 10px !important; */
+}
+
+.tableStyle tr td a img.er_magicflight{
+/* 	height: 77px !important;
+	margin-top: 11px !important; */
+}
+
+.tableStyle tr td a img.er_kandypens{
+	margin-top: -17px !important;
+}
+
+
+
+#er_custom_banner_page .img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1.42857;
+    transition: all 0.2s ease-in-out 0s;
+	padding: 0px !important;
+	background-color: transparent !important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+#max_price, #min_price{
+	border: 3px solid #E9E9E9 !important;
+	margin-bottom: 8px !important;
+	padding-left: 4px !important;
+}
+
+/* Dated 03.07.15 */
+/*
+.home .breadcrumbs, #er_home .post-footer{
+	display:none;
+}*/
+
+.home .breadcrumbs{
+	display:none;
+}
+
+#er_home .post-title {
+    border-bottom: 1px dotted !important;
+    padding-bottom: 7px !important;
+}
+
+#er_page_custom{
+    margin-bottom: 40px !important;
+}
+
+.er_discreet_vape{
+    padding-top: 17px !important;
+	/* padding-bottom: 6px !important; */
+}
+
+.product-single .product.type-product.status-publish a.compare.button {
+    margin-top: -81px !important;
+	}
+	
+.product-single form.variable label{
+	padding-top:6px !important;
+}
+
+/* hidden the view cart button */
+
+.woocommerce-cart #er_view_cart{
+	display:none;
+}
+
+article.post-wrap.post-1666.page.type-page.status-publish.hentry, .content .post-wrap, .post-wrap {
+    -moz-height: 100% !important;
+	-ms-height: 100% !important;
+	-o-height: 100% !important;
+	-webkit-height: 100% !important;
+	height: 100% !important;
+	-moz-min-height: 100% !important;
+	-ms-min-height: 100% !important;
+	-o-min-height: 100% !important;
+	-webkit-min-height: 100% !important;
+	min-height: 100% !important;
+}
+
+
+/* added 10.07.2015 */
+
+.footer-widgets .widget {
+    margin-top: 20px !important;
+}
+
+
+.footer-widgets {
+    padding-bottom: 22px !important;
+}
+
+.footer-meta {
+    padding: 15px 0px 8px !important;
+	}
+	
+/* dated 13.07.2015 */
+
+.wpcf7-form input{
+    width: 100%;
+    max-width: 500px;
+    box-shadow: none;
+    height: 40px;
+    border-radius: 0px;
+    border: 3px solid #E9E9E9;
+    color: #737475;
+    padding: 5px 8px !important;
+}
+
+
+.wpcf7-form textarea{
+    width: 500px;
+    height: 153px;
+	box-shadow: none;
+    border-radius: 0px;
+    border: 3px solid #E9E9E9;
+    color: #737475;
+    padding: 5px 8px !important;
+}
+
+.wpcf7-submit{
+    background-color: #232323 !important;
+    border-width: 0px !important;
+    border-color: #232323;
+    color: #FFF !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    outline: 0px none !important;
+    padding: 14px 50px;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 1;
+    text-transform: uppercase !important;
+    transition: all 0.2s ease-in-out 0s;
+    border:none !important;
+	width: 120px !important;
+}
+
+.wpcf7-submit:hover {
+    background-color: #89C144 !important;
+    border-color: #89C144 !important;
+}
+
+@media only screen 
+and (min-width : 1025px){
+
+#er_brand_table{
+	max-width:755px;
+	height: 361px; 
+	margin-left: 25px;
+}
+
+
+}
+
+
+@media only screen 
+and (min-device-width : 769px) 
+and (max-device-width : 1024px){
+
+#er_brand_table{
+	max-width:755px;
+	height: 361px; 
+	margin-left: 10px;
+}
+
+#er_brand_table img{
+	width:100%;
+}
+
+
+}
+
+@media only screen 
+and (min-device-width : 361px) 
+and (max-device-width : 800px){
+
+.logo {
+    padding-top: 5px;
+    margin: -28px auto !important;
+	width: 100% !important;
+    max-width: 324px !important;
+    height: auto;
+}
+
+.logo img {
+    max-width: 326px !important;
+    width: 100% !important;
+    /* margin-left: -28px !important; */
+}
+
+
+}
+
+@media only screen 
+and (max-width : 768px){
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr { 
+	display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr { 
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td { 
+	/* Behave  like a "row" */
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+}
+
+td:before { 
+	/* Now like a table header */
+	position: absolute;
+	/* Top/left values mimic padding */
+	top: 6px;
+	left: 6px;
+	width: 45%; 
+	padding-right: 10px; 
+	white-space: nowrap;
+}
+	
+	
+#er_custom_banner_page img{
+	min-height:124px !important;
+	margin-bottom: 32px;
+	
+}
+
+.page-id-1666 .post-body img, .tableStyle tr td a img{
+    display: table !important;
+    margin: 0px auto !important;
+    width: 100% !important;
+	max-width: 300px !important;
+}
+	
+
+}
+
+
+@media only screen 
+and (max-width :360px){
+
+
+.logo img {
+    max-width: 326px !important;
+    width: 100% !important;
+    margin-top: -14px !important;
+    margin-left: 0px !important;
+    margin-bottom: 23px !important;
+}
+
+
+}
+
+
+
+
+
+
+#sidebar #yith-woocompare-widget-2{
+	margin-bottom: 48px;
+}
+
+#er_vape_img{
+    margin-top: -21px;
+}
+
+/* 15.07.2015 By ER */
+
+.header-cart .yith-woocompare-open{
+	display:none;
+}
+.single-product .owl-carousel {
+  display: block !important;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.single-product .row.products.grid .thumbnail.no-border.no-padding {
+  float: left !important;
+  margin: 29px 0 0 37px !important;
+  width: 28% !important;
+}
+.woocommerce p.stars a.star-1:after, .woocommerce-page p.stars a.star-1:after{
+content:url("/wp-content/themes/bella-child/icon-2.png") !important;
+}
+.woocommerce p.stars a.star-2:after, .woocommerce-page p.stars a.star-2:after{
+content:url("/wp-content/themes/bella-child/icon-2.png") !important;
+}
+.woocommerce p.stars a.star-3:after, .woocommerce-page p.stars a.star-3:after{
+content:url("/wp-content/themes/bella-child/icon-2.png") !important;
+}
+.woocommerce p.stars a.star-4:after, .woocommerce-page p.stars a.star-4:after{
+content:url("/wp-content/themes/bella-child/icon-2.png") !important;
+}
+.woocommerce p.stars a.star-5:after, .woocommerce-page p.stars a.star-5:after{
+content:url("/wp-content/themes/bella-child/icon-2.png") !important;
+}
+
+.row.products.grid .thumbnail.no-border.no-padding {
+  height: 548px !important;
+}
+.woocommerce p.stars a.star-1.active::after, 
+.woocommerce p.stars a.star-1:hover::after, 
+.woocommerce-page p.stars a.star-1.active::after,
+ .woocommerce-page p.stars a.star-1:hover::after{
+ content:url("/wp-content/themes/bella-child/icon-1.png") !important;
+ 
+ }
+ .woocommerce p.stars a.star-2.active::after, 
+.woocommerce p.stars a.star-2:hover::after, 
+.woocommerce-page p.stars a.star-2.active::after,
+ .woocommerce-page p.stars a.star-2:hover::after{
+  content:url("/wp-content/themes/bella-child/icon-1.png") !important; 
+ 
+ }
+ .woocommerce p.stars a.star-3.active::after, 
+.woocommerce p.stars a.star-3:hover::after, 
+.woocommerce-page p.stars a.star-3.active::after,
+ .woocommerce-page p.stars a.star-3:hover::after{
+  content:url("/wp-content/themes/bella-child/icon-1.png") !important;
+ 
+ }
+ .woocommerce p.stars a.star-4.active::after, 
+.woocommerce p.stars a.star-4:hover::after, 
+.woocommerce-page p.stars a.star-4.active::after,
+ .woocommerce-page p.stars a.star-4:hover::after{
+  content:url("/wp-content/themes/bella-child/icon-1.png") !important;
+ 
+ }
+ .woocommerce p.stars a.star-5.active::after, 
+.woocommerce p.stars a.star-5:hover::after, 
+.woocommerce-page p.stars a.star-5.active::after,
+ .woocommerce-page p.stars a.star-5:hover::after{
+  content:url("/wp-content/themes/bella-child/icon-1.png") !important;
+ 
+ }
+
+ 
+ /* ER dated 18.07.15 */
+ 
+.shop_attributes tr td p{
+	margin-bottom: 0px !important;
+}
+
+/* ER dated 21.07.15 */
+
+#sidebar .thumbnail{
+    clear: both;
+	margin: 25px auto;
+	padding: 30px 0 !important;
+}
+
+#sidebar .thumbnail .media{
+    float: left !important;
+    max-width: 75px !important;
+	width: 25%;
+}
+
+#sidebar .thumbnail .caption .caption-title{
+    font-size: 16px !important;
+	text-align: left !important;
+}
+
+
+#sidebar .thumbnail .caption {
+    padding: 4px 0px 0px 5px !important;
+    overflow: hidden;
+}
+
+#sidebar .thumbnail .caption .buttons{
+    display:none;
+}
+
+#sidebar .thumbnail .caption{
+    float: right !important;
+	width: 70%;
+}
+
+#sidebar .thumbnail .caption .rating{
+    float: left;
+    clear: both;
+}
+
+
+#sidebar .thumbnail .caption .price{
+    clear: both;
+    float: left;
+}
+
+/*
+#er_phone_no a{
+    background: transparent url("http://vaporize.staging.wpengine.com/wp-content/uploads/tel.png") no-repeat scroll 0% 0% / 14px 17px;
+    padding-left: 21px;
+    line-height: 13px;
+    height: 21px;
+}
+*/
+
+#sidebar .product_list_widget{
+    margin-top: -36px !important;
+}
+
+/* 05.09.2015 */
+
+#er_last_col1 img{
+	margin-top: -14px !important;
+	/* height: 90px; */
+}
+
+td#er_last_col2 .er_pax{
+/*     height: 60px !important;
+    width: 176px !important; */
+}
+
+#er_last_col3 img{
+    margin-top: 16px !important;
+}
+
+.er-atmos{
+    margin-top: -23px;
+}
+
+.er-arizer{
+    margin-top: -12px !important;
+}
+
+/* 08.09.2015 */
+
+.search .post-media img {
+    max-width: 300px !important;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+}
+
+.woocommerce-info {
+    margin-bottom: 20px !important;
+}
+
+#er_lastrow td{
+	padding:30px 10px !important;
+}
+
+	
+/* 27.02.2016 */
+.about-the-author{
+    display: none;
+}
+
+
+/*4/14/2016*/
+.widget.widget_instagram_recent_media{
+    margin-top: 5em !important;
+}
